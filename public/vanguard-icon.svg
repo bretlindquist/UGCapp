@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Vanguard icon">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6366F1" />
+      <stop offset="1" stop-color="#6D28D9" />
+    </linearGradient>
+    <linearGradient id="light" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity=".17" />
+      <stop offset=".62" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#background)" />
+  <rect width="512" height="512" rx="112" fill="url(#light)" />
+  <path fill="#FFFFFF" d="M132 139c-7 0-12 7-9 14l99 232c5 12 17 20 30 20s25-8 30-20l99-232c3-7-2-14-9-14h-59c-6 0-11 4-13 10l-48 128-48-128c-2-6-7-10-13-10z" />
+</svg>

@@ -205,9 +205,7 @@ export const AppShell: React.FC<AppShellProps> = ({
         <div className="p-4 border-b border-white/[0.075]">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2.5">
-              <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-indigo-500 to-violet-600 text-white shadow-md shadow-indigo-500/25 border border-indigo-400/35 flex items-center justify-center font-bold text-sm">
-                V
-              </div>
+              <img src="/vanguard-icon.svg" alt="" className="w-7 h-7 rounded-lg shadow-md shadow-indigo-500/25" />
               <div>
                 <div className="flex items-center gap-2">
                   <span className="font-semibold tracking-tight text-sm text-zinc-50">
@@ -373,9 +371,7 @@ export const AppShell: React.FC<AppShellProps> = ({
         <header className="sticky top-0 z-30 surface-glass border-b border-white/[0.075] px-4 lg:px-8 py-3 flex items-center justify-between gap-3">
           {/* Mobile Brand */}
           <div className="flex items-center gap-2 lg:hidden">
-            <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-indigo-500 to-violet-600 text-white flex items-center justify-center font-bold text-xs shadow-sm shadow-indigo-500/30">
-              V
-            </div>
+            <img src="/vanguard-icon.svg" alt="" className="w-7 h-7 rounded-lg shadow-sm shadow-indigo-500/30" />
             <span className="font-semibold text-sm text-zinc-100">Vanguard</span>
           </div>
 
